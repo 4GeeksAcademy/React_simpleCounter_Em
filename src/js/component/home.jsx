@@ -1,13 +1,13 @@
 import React from "react";
 
 //include images into your bundle
-import Counter from "./counter"
+import Cronometro from "./cronometro"
 
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
-			<Counter/>
+		<div className="text-center text-align-center">
+			<Cronometro/>
 		</div>
 	);
 };
